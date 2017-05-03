@@ -1,0 +1,27 @@
+baseURL = "http://astro.venj.me"
+languageCode = "zh-cn"
+title = "业余天文志"
+copyright = "Copyright (c) 2017. All rights reserved."
+theme = "liquorice"
+builddrafts = false
+hasCJKLanguage = true
+RSSUri = "feed.xml"
+
+[permalinks]
+    post = "/post/:filename"
+
+[[menu.main]]
+    name = "存档"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = 1
+    url = "/post/"
+[[menu.main]]
+    name = "关于"
+    pre = "<i class='fa fa-road'></i>"
+    weight = 2
+    url = "/about/"
+
+[params]
+    author = "Venj"
+    DateForm = "2006年01月02日"
+    copyright = "版权所有 © 2017 Venj Chu"
