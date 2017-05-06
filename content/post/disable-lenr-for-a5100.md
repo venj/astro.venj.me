@@ -13,7 +13,7 @@ title = "关闭SONY A5100暗幅降噪的正确方法"
 
 我一直以为相机上是有关闭暗幅降噪的选项的，但是有一天我突然心血来潮，决定准备几张暗幅，来试试用软件做暗幅降噪，我才发现原来A5100没有关闭暗幅降噪的选项。
 
-暗幅降噪（Dark Frame Subtraction），也叫长曝光降噪（Long Exposure Noise Reduction, LENR）。是相机在长曝光完成后关闭快门，马上再进行一次与曝光时间等长的曝光，以消除长曝光照片里的热噪点。SONY在中高端的相机（A6000以上）上都有一个关闭LENR的选项；甚至早早年的NEX-3，NEX-5上都有。单单在A5000和A5100上移除了这个选项。原因不明，也有点无法理解。
+暗幅降噪（Dark Frame Subtraction），也叫长曝光降噪（Long Exposure Noise Reduction, LENR）。是相机在长曝光完成后关闭快门，马上再进行一次与曝光时间等长的曝光，以消除长曝光照片里的热噪点。SONY在中高端的相机（A6000以上）上都有一个关闭LENR的选项；甚至在早年的NEX-3，NEX-5上都有。单单在A5000和A5100上移除了这个选项。原因不明，也有点无法理解。
 
 在经过一番搜索之后，终于找到了一个方法能够绕过暗幅降噪，虽然不算完美，但是确实能解决问题。
 
@@ -25,7 +25,9 @@ SONY相机的固件和任何固件一样，总会有高手会不满意的，这�
 2. 在Safari或IE中打开[OpenMemories](https://sony-pmca.appspot.com/apps) (网站在AppSpot上，需要科学上网)，打开[BetterManual](https://sony-pmca.appspot.com/plugin/app/com.obsidium.bettermanual)安装界面。
 3. 把相机设置为MTP模式（实测用U盘模式也没问题），插上电脑。
 4. 点击“Install BetterManual”按钮，稍等片刻。
-5. 安装完成后，断开相机。到应用里打开BetterManual。
+5. 安装完成后，断开相机。到应用程序里打开BetterManual。
+
+![Better Manual](/images/better_manual.jpg)
 
 BetterManual的使用请参考其[官网](https://github.com/obs1dium/BetterManual)说明，可能需要适应一下。BetterManual并不能为系统添加关闭暗幅降噪的选项，不过用它在长曝光时是默认关闭暗幅降噪的，以后拍长曝光，就使用BetterManual--反正天文摄影也是要全手动的，不是吗。
 
