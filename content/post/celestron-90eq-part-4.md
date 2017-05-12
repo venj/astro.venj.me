@@ -4,7 +4,7 @@ date = "2017-05-12T12:06:44+08:00"
 description = "因为Celestron 90EQ的设计问题，在连接巴罗镜或连接相机拍摄的时候需要增加延焦筒才能合焦。"
 draft = false
 tags = ["天文望远镜", "Celestron"]
-title = "入坑Celestron 90EQ (四)：延焦筒"
+title = "入坑Celestron 90EQ (补充)：延焦筒"
 +++
 
 可能Celestron 90EQ的设计者并没有考虑过会有很多用户把90EQ作为一个摄影镜头来使用，因此90EQ配备的调焦筒的长度只适合目视观测使用。于是，为了解决摄影时无法合焦的问题，就必须使用延焦筒了。
