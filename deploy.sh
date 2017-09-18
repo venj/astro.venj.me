@@ -1,6 +1,6 @@
 #!/bin/sh
 HOST=venj.me
-DIR=/sites/astro.venj.me
+DIR=/sites/nightsky.fun
 
 hugo && rsync -avz --delete public/ ${HOST}:${DIR}
 
