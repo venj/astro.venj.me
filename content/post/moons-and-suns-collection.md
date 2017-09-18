@@ -43,8 +43,4 @@ categories = ['天文摄影']
 
 ![太阳黑子](/images/sunspots_170822.jpg)
 
-9月1日的太阳黑子
-
-![太阳黑子](/images/sunspots_170901.jpg)
-
 (本文完)
