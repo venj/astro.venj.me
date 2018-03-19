@@ -5,6 +5,7 @@ copyright = "Copyright (c) 2017. All rights reserved."
 theme = "liquorice"
 builddrafts = false
 hasCJKLanguage = true
+googleAnalytics = "UA-115183027-2"
 
 [outputFormats.RSS]
 baseName = "feed.xml"
