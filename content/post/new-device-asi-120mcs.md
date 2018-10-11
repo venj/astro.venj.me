@@ -1,7 +1,7 @@
 +++
 categories = ["天文摄影"]
 date = "2018-08-10T22:14:51+08:00"
-description = "七月份因为回家了一趟，所以拍到了银河，其他依然是月亮的照片了。"
+description = "购入振旺 ZWO ASI120MC-S 行星摄像头，终于可以愉快的拍行星了。"
 draft = false
 tags = ["月亮", "火星", "木星", "土星"]
 title = "新装备：振旺 ZWO ASI120MC-S 行星摄像头"
