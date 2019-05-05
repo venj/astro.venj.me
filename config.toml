@@ -8,7 +8,7 @@ hasCJKLanguage = true
 googleAnalytics = "UA-115183027-2"
 
 [outputFormats.RSS]
-baseName = "feed.xml"
+baseName = "feed"
 
 [permalinks]
     post = "/post/:filename"
