@@ -1,7 +1,7 @@
 baseURL = "https://nightsky.fun"
 languageCode = "zh-cn"
 title = "业余天文志"
-copyright = "Copyright (c) 2017-2019. All rights reserved."
+copyright = "Copyright (c) 2017-2021. All rights reserved."
 theme = "liquorice"
 builddrafts = false
 hasCJKLanguage = true
@@ -27,4 +27,4 @@ baseName = "feed"
 [params]
     author = "Venj"
     DateForm = "2006年01月02日"
-    copyright = "版权所有 © 2017-2019 Venj Chu 业余天文志"
+    copyright = "版权所有 © 2017-2021 Venj Chu 业余天文志"
