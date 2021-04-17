@@ -23,7 +23,9 @@ HEQ5 Pro 的手控接口是 RJ45（也就是网线口），连接 ASI Air 的时
 
 翻了翻我的连接线，找出了一根刷机线和一个 USB 烧录板。刷机线是几年前买 ARM 开发板时附带的；USB 烧录板是玩 Arduino 时，买电子套装时顺便带了一片。我用家里的网线和水晶头，做了一个单头的 RJ45 插口，另一头剥出来查到面包板上，完全参考星达文档里的线序插好，对应好烧录板 TX，RX，GND和VCC。第一次测试的时候，我选择了 TX 和 RX 反序，ASI Air 里选择“EQMod Mount”，通过 Serial（串口） 模式连接赤道仪的时候超时了。然后我换了一下 TX 和 RX，点了连接，突然，熟悉的赤道仪马达声响了起来，ASI Air 也出现了赤道仪控制界面。成功了！
 
-![ASI Air](/images/asi_air_telescopt_link.png)
+![ASI Air](/images/air_mount_settings.jpg)
+
+![ASI Air](/images/air_telescope_control.png)
 
 成功连接后，我又测试哪些接线是不需要的。最终发现只需要连接 TX，RX 和 GND 三个线就可以。
 
@@ -33,7 +35,9 @@ HEQ5 Pro 的手控接口是 RJ45（也就是网线口），连接 ASI Air 的时
 
 ![RJ45](/images/rj45_usb_serial_connection.jpg)
 
-也就是说，只需要将 USB转TTL 小板的 GND，RX，TX 分别连接至 RJ45 的 1，5，6 线，就能实现 ASI Air 和 HEQ5 Pro 赤道仪的通讯了。
+也就是说，只需要将 USB转TTL 小板的 GND，RX，TX 分别连接至 RJ45 的 1，5，6 线，就能实现 ASI Air 和 HEQ5 Pro 赤道仪的通讯了。下面是连接的完成体：
+
+![RJ45](/images/air_heq5_connection.jpg)
 
 简单算一下成本： USB转TTL刷机线，淘宝售价 3-5 元，水晶头 18 元 100 个，单个价格忽略不计。如果有压线钳，并且可以通过凑单把 USB 转 TTL 线带回的话，单根线的成本只需要不到 5 元！只有淘宝的 1/10！所以最后还是忍不住要吐槽一下，天文相关的装备和配件的价格实在是太虚高了，道理我都懂，但我总觉得这样不太对----至少也是不应该。
 
